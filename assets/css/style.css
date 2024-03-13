@@ -66,6 +66,13 @@ h6 {
   opacity: 1;
 }
 
+@media (max-width: 1500px){
+  .back-to-top{
+    display: none;
+    visibility: hidden;
+  }
+}
+
 /*--------------------------------------------------------------
 # Disable AOS delay on mobile
 --------------------------------------------------------------*/
@@ -400,7 +407,7 @@ h6 {
 
 @media (max-width: 1200px) {
   #hero {
-    height: 40vh;
+    height: 50vh;
     margin-top: 0px;
   }
 
@@ -416,7 +423,7 @@ h6 {
 
 @media (max-width: 768px) {
   #hero {
-    height: 30vh;
+    height: 40vh;
     margin-top: 0px;
   }
 
@@ -439,7 +446,7 @@ h6 {
 
 @media (max-width: 575px) {
   #hero {
-    height: 20vh;
+    height: 30vh;
     margin-top: 0px;
   }
   #hero img {
@@ -575,6 +582,9 @@ section {
 }
 
 @media (max-width:1200px){
+  .about .content {
+    margin-top: 10px
+  }
   .about .content p {
     font-weight: 300;
     font-size: 14px;
@@ -586,6 +596,9 @@ section {
 }
 
 @media (max-width:800px){
+  .about .content {
+    margin-top: 5px
+  }
   .about .content p {
     font-weight: 300;
     font-size: 13px;
