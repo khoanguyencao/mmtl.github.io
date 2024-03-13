@@ -408,12 +408,9 @@ h6 {
     animation: none;
   }
 
-  #hero .hero-img {
+  #hero img {
     text-align: center;
-  }
-
-  #hero .hero-img img {
-    width: auto;
+    width: 100%;
   }
 }
 
@@ -434,8 +431,9 @@ h6 {
     margin-bottom: 30px;
   }
 
-  #hero .hero-img img {
-    width: 70%;
+  #hero img {
+    text-align: center;
+    width: 100%;
   }
 }
 
@@ -444,9 +442,9 @@ h6 {
     height: 60vh;
     margin-top: 0px;
   }
-  #hero .hero-img img {
-    height: 15vh;
-    width: 60%;
+  #hero img {
+    text-align: center;
+    width: 100%;
   }
 }
 
