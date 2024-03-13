@@ -400,7 +400,7 @@ h6 {
 
 @media (max-width: 1200px) {
   #hero {
-    height: 40vh;
+    height: 60vh;
     margin-top: 0px;
   }
 
@@ -419,7 +419,7 @@ h6 {
 
 @media (max-width: 768px) {
   #hero {
-    height: 30vh;
+    height: 60vh;
     margin-top: 0px;
   }
 
@@ -441,7 +441,7 @@ h6 {
 
 @media (max-width: 575px) {
   #hero {
-    height: 30vh;
+    height: 60vh;
     margin-top: 0px;
   }
   #hero .hero-img img {
