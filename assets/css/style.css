@@ -400,7 +400,7 @@ h6 {
 
 @media (max-width: 1200px) {
   #hero {
-    height: 60vh;
+    height: 40vh;
     margin-top: 0px;
   }
 
@@ -416,7 +416,7 @@ h6 {
 
 @media (max-width: 768px) {
   #hero {
-    height: 60vh;
+    height: 30vh;
     margin-top: 0px;
   }
 
@@ -439,7 +439,7 @@ h6 {
 
 @media (max-width: 575px) {
   #hero {
-    height: 60vh;
+    height: 20vh;
     margin-top: 0px;
   }
   #hero img {
@@ -528,6 +528,10 @@ section {
 /*--------------------------------------------------------------
 # About Us
 --------------------------------------------------------------*/
+.about .content {
+  margin-top: 20px
+}
+
 .about .content h3 {
   font-weight: 600;
   font-size: 26px;
