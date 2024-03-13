@@ -112,9 +112,17 @@ h6 {
 
 @media(max-width:1200px){
   #header .logo img{
-    padding: 0;
-    margin: 0;
+    padding: 0px;
+    margin: 0px;
     max-height: 30px;
+  }
+}
+
+@media(max-width:900px){
+  #header .logo img{
+    padding: 0px;
+    margin: 0px;
+    max-height: 20px;
   }
 }
 
@@ -494,21 +502,21 @@ section {
 
 @media(max-width:1266px){
   section {
-    padding: 20px 0 20px 0;
+    padding: 20px;
     overflow: hidden;
   }
 }
 
 @media(max-width:991px){
   section {
-    padding: 10px 0 10px 0;
+    padding: 10px;
     overflow: hidden;
   }
 }
 
 @media(max-width:667px){
   section {
-    padding: 0px;
+    padding: 10px;
     overflow: hidden;
   }
 }
