@@ -110,7 +110,10 @@ h6 {
   max-height: 45px;
 }
 
-@media(max-width:1200px){
+@media(max-width:1500px){
+  #header {
+    padding: 0px
+  }
   #header .logo img{
     padding: 0px;
     margin: 0px;
@@ -119,6 +122,9 @@ h6 {
 }
 
 @media(max-width:900px){
+  #header {
+    padding: 0px
+  }
   #header .logo img{
     padding: 0px;
     margin: 0px;
