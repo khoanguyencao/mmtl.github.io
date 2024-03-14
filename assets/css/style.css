@@ -524,21 +524,21 @@ section {
 
 @media(max-width:1266px){
   section {
-    padding: 0px 30px 60px 30px;
+    padding: 0px 0px 60px 0px;
     overflow: hidden;
   }
 }
 
 @media(max-width:991px){
   section {
-    padding: 0px 20px 40px 20px;
+    padding: 0px 0px 40px 0px;
     overflow: hidden;
   }
 }
 
 @media(max-width:667px){
   section {
-    padding: 0px 10px 20px 10px;
+    padding: 0px 0px 20px 0px;
     overflow: hidden;
   }
 }
@@ -594,7 +594,8 @@ section {
 
 @media (max-width:1200px){
   .about .content {
-    margin-top: 10px
+    margin-top: 10px;
+    padding: 0px 20px 0px 0px;
   }
   .about .content p {
     font-weight: 400;
