@@ -117,7 +117,7 @@ h6 {
   max-height: 45px;
 }
 
-@media(max-width:1500px){
+@media screen and (max-width:1400px){
   #header {
     padding: 12px 0;
   }
@@ -128,7 +128,7 @@ h6 {
   }
 }
 
-@media(max-width:900px){
+@media screen and (max-width:900px){
   #header {
     padding: 12px 0;
   }
@@ -414,11 +414,6 @@ h6 {
   #hero .animated {
     animation: none;
   }
-
-  #hero img {
-    text-align: center;
-    width: 100%;
-  }
 }
 
 @media (max-width: 768px) {
@@ -437,21 +432,12 @@ h6 {
     line-height: 24px;
     margin-bottom: 30px;
   }
-
-  #hero img {
-    text-align: center;
-    width: 100%;
-  }
 }
 
 @media (max-width: 575px) {
   #hero {
     height: 30vh;
     margin-top: 0px;
-  }
-  #hero img {
-    text-align: center;
-    width: 100%;
   }
 }
 
@@ -586,11 +572,11 @@ section {
     margin-top: 10px
   }
   .about .content p {
-    font-weight: 300;
+    font-weight: 400;
     font-size: 14px;
   }  
   .about .content li {
-    font-weight: 300;
+    font-weight: 400;
     font-size: 14px;
   }  
 }
